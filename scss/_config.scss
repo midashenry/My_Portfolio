@@ -1,5 +1,3 @@
-@import "config";
-
 $primary-color: #444;
 $secondary-color: #eece1e;
 $show-home-image: true;
@@ -7,7 +5,7 @@ $home-image: url(../img/background.jpeg);
 $background-opacity: 0.7;
 
 @mixin easeOut {
-  transition: all 1s ease-out;
+  transition: all 0.7s ease-out;
 }
 
 @mixin background {
